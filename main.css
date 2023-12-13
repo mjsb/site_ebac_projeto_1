@@ -217,7 +217,7 @@ footer .container {
 }
 
 #contact header h2 {
-    margin-bottom: 16px;
+    margin-bottom: 32px;
 }
 
 #contact ul {
@@ -230,6 +230,34 @@ footer .container {
     display: flex;
     align-items: center;
     gap: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 32px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 300px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #87a040;
+}
+
+form input:focus,
+form textarea:focus {
+    outline-color: #87a040;
+}
+
+form textarea {
+    resize: none;
+    height: 80px;
 }
 
 footer {
