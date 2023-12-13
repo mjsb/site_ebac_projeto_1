@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Melhor Nutrir</title>
+        <link rel="stylesheet" href="./main.css" />
+
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+        />
+    </head>
+    <body>
+        <header id="nav">
+            <div class="container">
+                <a class="logo" href="#home">
+                    <h1>Melhor Nutrir</h1>
+                </a>
+
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="#home" onclick="closeMenu()">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" onclick="closeMenu()"
+                                >Quem Somos</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#nutrition" onclick="closeMenu()"
+                                >Nutrição e Saúde</a
+                            >
+                        </li>
+                        <li>
+                            <a href="#contact" onclick="closeMenu()">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- <button
+                    aria-expanded="false"
+                    aria-label="Abrir menu"
+                    onclick="openMenu()"
+                    class="open-menu"
+                >
+                    <svg
+                        width="40"
+                        height="40"
+                        viewBox="0 0 40 40"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M10 20H30"
+                            stroke="#00856F"
+                            stroke-width="3"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                        <path
+                            d="M10 12H30"
+                            stroke="#00856F"
+                            stroke-width="3"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                        <path
+                            d="M18 28L30 28"
+                            stroke="#00856F"
+                            stroke-width="3"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                    </svg>
+                </button>
+
+                <button
+                    aria-expanded="true"
+                    aria-label="Fechar menu"
+                    onclick="closeMenu()"
+                    class="close-menu"
+                >
+                    <svg
+                        width="40"
+                        height="40"
+                        viewBox="0 0 40 40"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M30 10L10 30M10 10L30 30"
+                            stroke="#FFFAF1"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                    </svg>
+                </button> -->
+            </div>
+        </header>
+
+        <section id="home">
+            <div class="banner">
+                <div class="text-box">
+                    <h2>Nutrição é a arte</h2>
+                    <h2>de dar saúde e vida</h2>
+                    <h2>ao que você não vê.</h2>
+                </div>
+            </div>
+            <div class="container">
+                <div class="col-a">
+                    <header>
+                        <h4>Bem vindo ao Melhor Nutrir</h4>
+                        <h2>Assessoria nutricional.</h2>
+                    </header>
+                    <div class="content">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quae ea, impedit nesciunt ducimus nihil
+                            provident, officiis veritatis ratione optio minima
+                            libero obcaecati deleniti deserunt, perferendis iure
+                            sapiente molestias. Velit, quisquam.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-b">
+                    <img
+                        src="./images/img-01.svg"
+                        alt="Nutricionista prescrevendo dieta"
+                    />
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="col-b">
+                    <img src="./images/quem-somos.svg" alt="Quem somos" />
+                </div>
+                <div class="col-a">
+                    <header>
+                        <h4>Quem somos</h4>
+                        <h2>Entenda quem somos e porque existimos</h2>
+                    </header>
+                    <div class="content">
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Neque velit amet tempore iure iste mollitia
+                            repellat omnis, quae reprehenderit commodi tenetur
+                            sequi natus quasi ad. Accusantium modi suscipit
+                            aspernatur quam?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="nutrition">
+            <div class="container">
+                <div class="col-a">
+                    <header>
+                        <h4>Nutrição e Saúde</h4>
+                        <h2>Melhor Nutrir</h2>
+                    </header>
+                    <div class="content">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Maiores saepe sunt suscipit vitae excepturi
+                            debitis laudantium rerum ducimus quam hic ratione
+                            tempora voluptate iste a explicabo ipsa at, omnis
+                            itaque.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-b">
+                    <img src="./images/nutricao.svg" alt="Quem somos" />
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="col-a">
+                    <img src="./images/contato.svg" alt="Quem somos" />
+                </div>
+                <div class="col-b">
+                    <header>
+                        <h4>Contato</h4>
+                        <h2>Entre em contato!</h2>
+                    </header>
+                    <div class="content">
+                        <ul>
+                            <li>
+                                <img
+                                    src="./images/ico-pin-map.svg"
+                                    alt="Instagram Melhor Nutrir"
+                                />
+                                Rua Html css, 107
+                            </li>
+                            <li>
+                                <img
+                                    src="./images/ico-mail.svg"
+                                    alt="Instagram Melhor Nutrir"
+                                />
+                                melhornutrir@melhornutrir.com.br
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="col-a">
+                    <a class="logo" href="#home">
+                        <h3>Melhor Nutrir</h3>
+                    </a>
+                    <p>
+                        ©2023 Melhor Nutrir. <br />Todos os direitos reservados.
+                    </p>
+                </div>
+                <div class="col-b">
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" target="_blank">
+                                <img
+                                    src="./images/ico-face.svg"
+                                    alt="Facebook Melhor Nutrir"
+                                />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <img
+                                    src="./images/ico-insta.svg"
+                                    alt="Instagram Melhor Nutrir"
+                                />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
+                                <img
+                                    src="./images/ico-you.svg"
+                                    alt="YouTube Melhor Nutrir"
+                                />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
